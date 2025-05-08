@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+    <title>Result-Calculator</title>
+</head>
+
+<body>
+    <Section id="section-1">
+        <h1>Calculate your acadmic result with us!</h1>
+        <button id="sec-1btn" onclick="location.href='#section-2' ">Start Now </button>
+    </Section>
+
+
+
+
+
+
+    <section id="section-2">
+
+        <div id="sec2name">
+
+            <h1>Enter Your Name</h1>
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" placeholder="Enter your first name">
+            </div>
+
+
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" placeholder="Enter your last name">
+            </div>
+
+
+            <h1>Enter Your Marks</h1>
+            <div class="form-group">
+                <label for="urdu">Urdu:</label>
+                <input type="text" id="urdu" placeholder="Enter your urdu marks">
+            </div>
+
+
+            <div class="form-group">
+                <label for="english">English:</label>
+                <input type="text" id="english" placeholder="Enter your english marks">
+            </div>
+
+
+            <div class="form-group">
+                <label for="maths">Maths:</label>
+                <input type="text" id="maths" placeholder="Enter your maths marks">
+            </div>
+
+
+            <div class="form-group">
+                <label for="chemistry">Chemistry:</label>
+                <input type="text" id="chemistry" placeholder="Enter your chemistry marks">
+            </div>
+
+
+            <div class="form-group">
+                <label for="physics">Physics:</label>
+                <input type="text" id="physics" placeholder="Enter your physics marks">
+            </div>
+
+
+            <div class="form-group">
+                <label for="islamiyat">Islamiat:</label>
+                <input type="text" id="islamiat" placeholder="Enter your islamiat marks">
+            </div>
+
+
+
+            <h1>Enter Your Total Marks</h1>
+            <div class="form-group">
+                <label for="total">Total Marks:</label>
+                <input type="text" id="total" placeholder="Enter your total marks">
+            </div>
+
+
+
+            <div id="sec-2btn">
+                <button onclick="calculate()">Calculate Now</button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="section-3">
+        <h1>Report Card:</h1>
+
+        <p><strong>Name: </strong> <span id="fullname"></span></p>
+        <p><strong>English: </strong> <span id="eng"></span></p>
+        <p><strong>Urdu: </strong> <span id="ur"></span></p>
+        <p><strong>Maths: </strong> <span id="mt"></span></p>
+        <p><strong>Chemistry: </strong> <span id="ch"></span></p>
+        <p><strong>Physics: </strong> <span id="ph"></span></p>
+        <p><strong>Islamiat: </strong> <span id="isl"></span></p>
+        <p><strong>Obtained Marks: </strong> <span id="obt-marks"></span></p>
+        <p><strong>Percentage: </strong> <span id="percentage"></span></p>
+        <p><strong>Grade: </strong> <span id="grade"></span></p>
+    </section>
+
+
+    <script src="result.js"></script>
+</body>
+
+</html>
